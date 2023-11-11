@@ -1,0 +1,386 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+    height: 60px;
+    width: 100%;
+    background-color: rgb(81, 80, 80);
+}
+
+.nav ul {
+    text-align: center;
+}
+
+.nav ul li {
+    display: inline-block;
+    color: white;
+    font-size: 15px;
+    font-style: normal;
+    margin-left: 80px;
+}
+.nav ul li:nth-child(even) {
+    padding-top: 15px;
+}
+
+.nav ul li:nth-child(2) {
+    background-color: red;
+    font-size: 24px;
+    width: 300px;
+    height: 60px;
+}
+
+main {
+    width: 100%;
+    height: 63.5rem;
+    position: relative;
+}
+.page1{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(81, 80, 80);
+    background-image: url(../images/Component\ 1.svg);
+}
+
+
+.box1{
+    position: absolute;
+    display: inline-block;
+    width: 23.8rem;
+    height: 5.75rem;
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: -2px 2px 0px grey;
+}
+
+.box2{
+    position: absolute;
+    width: 36.625rem;
+    height: 3.625rem;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: -2px 2px 0px grey;
+}
+
+.bio{
+    width: 100%;
+    height: 63.5rem;
+    
+}
+
+.biocont{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color:  rgb(81, 80, 80);  
+}
+
+.h1 {
+    position: absolute;
+    display: inline-block;
+    width: 14.56rem;
+    height: 3.8rem;
+    color: white;
+    text-align: center;
+    font-size: 48px;
+    top: 20%;
+    left: 32.69rem;
+    transform: translate(-50%, -50%);
+}
+.biotext{
+    position: absolute;
+    display: inline-block;
+    width: 40rem;
+    height: 21.1rem;
+    color: white;
+    font-size: 18px;
+    top: 50%;
+    left: 35rem;
+    transform: translate(-50%, -50%);
+}
+.image1{
+    position: absolute;
+    width: 27.18rem;
+    height: 33.8rem;    
+    background: url("./images/image\ 4.svg");
+    top: 14.81rem;
+    left: 75%;
+    transform: translate(-50%, -50%);
+}
+
+.disco{
+    position: relative;
+    height: 63.5rem;
+    width: 100%;
+    background:rgb(81, 80, 80) ;  
+}
+.h2{
+    position: absolute;
+    color: #FFF;
+    font-size: 48px; 
+    top: 9.75rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.abox1 {
+    position: absolute;
+    width: 28.5rem;
+    height: 19rem;
+    background: rgb(50, 50, 50);
+    top: 40%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+
+.aimage1 {
+    display: block;
+    width: 10rem;
+    height: 10rem;
+    background: url("./image/image\ 5.svg");
+    margin-left: 3.5rem;
+    margin-top: 3.5rem;
+    
+}
+
+.aname1 {
+    position: absolute;
+    width: 10rem;
+    height: 1.5rem;
+    color: white;
+    font-size: 18px;
+    left: 14.5rem;
+    top: 2rem;
+}
+
+.alist1 {
+    color: white;
+    position: absolute;
+    left: 14.5rem;
+    top: 4.25rem;
+    font-size: 14px;
+}
+
+
+.abox2{
+    position: absolute;
+    width: 28.5rem;
+    height: 19rem;
+    background: rgb(50, 50, 50);
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.aimage2 {
+    display: block;
+    width: 10rem;
+    height: 10rem;
+    background: url("./image/image\ 6.svg");
+    margin-left: 3.5rem;
+    margin-top: 3.5rem;
+}
+
+
+
+.aname2 {
+    position: absolute;
+    width: 10rem;
+    height: 1.5rem;
+    color: white;
+    font-size: 18px;
+    left: 14.5rem;
+    top: 2rem;
+}
+
+.alist2 {
+    color: white;
+    position: absolute;
+    left: 14.5rem;
+    top: 4.25rem;
+    font-size: 14px;
+}
+
+
+.abox3{
+    position: absolute;
+    width: 28.5rem;
+    height: 19rem;
+    background: rgb(50, 50, 50);
+    top: 40%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+}
+
+.aimage3 {
+    display: block;
+    width: 10rem;
+    height: 10rem;
+    background: url("./image/image\ 7.svg");
+    margin-left: 3.5rem;
+    margin-top: 3.5rem;
+}
+
+
+
+.aname3 {
+    position: absolute;
+    width: 10rem;
+    height: 1.5rem;
+    color: white;
+    font-size: 18px;
+    left: 14.5rem;
+    top: 2rem;
+}
+
+.alist3 {
+    color: white;
+    position: absolute;
+    left: 14.5rem;
+    top: 4.25rem;
+    font-size: 14px;
+}
+
+
+
+
+
+
+.abox4{
+    position: absolute;
+    width: 28.5rem;
+    height: 19rem;
+    background: rgb(50, 50, 50);
+    top: 75%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+
+.aimage4 {
+    display: block;
+    width: 10rem;
+    height: 10rem;
+    background: url("./image/image\ 8.svg");
+    margin-left: 3.5rem;
+    margin-top: 3.5rem;
+}
+
+
+
+.aname4 {
+    position: absolute;
+    width: 10rem;
+    height: 1.5rem;
+    color: white;
+    font-size: 18px;
+    left: 14.5rem;
+    top: 2rem;
+}
+
+.alist4 {
+    color: white;
+    position: absolute;
+    left: 14.5rem;
+    top: 4.25rem;
+    font-size: 14px;
+}
+
+
+.abox5{
+    position: absolute;
+    width: 28.5rem;
+    height: 19rem;
+    background: rgb(50, 50, 50);
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.aimage5 {
+    display: block;
+    width: 10rem;
+    height: 10rem;
+    background: url("./image/image\ 9.svg");
+    margin-left: 3.5rem;
+    margin-top: 3.5rem;
+}
+
+
+
+.aname5 {
+    position: absolute;
+    width: 10rem;
+    height: 1.5rem;
+    color: white;
+    font-size: 18px;
+    left: 14.5rem;
+    top: 2rem;
+}
+
+.alist5 {
+    color: white;
+    position: absolute;
+    left: 14.5rem;
+    top: 4.25rem;
+    font-size: 14px;
+}
+
+
+
+.abox6{
+    position: absolute;
+    width: 28.5rem;
+    height: 19rem;
+    background: rgb(50, 50, 50);
+    top: 75%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+}
+
+.aimage6 {
+    display: block;
+    width: 10rem;
+    height: 10rem;
+    background: url("./image/image\ 10.svg");
+    margin-left: 3.5rem;
+    margin-top: 3.5rem;
+}
+
+
+
+.aname6 {
+    position: absolute;
+    width: 10rem;
+    height: 1.5rem;
+    color: white;
+    font-size: 18px;
+    left: 14.5rem;
+    top: 2rem;
+}
+
+.alist6 {
+    color: white;
+    position: absolute;
+    left: 14.5rem;
+    top: 4.25rem;
+    font-size: 14px;
+}
+
+.endpage{
+    width: 20rem;
+    height: 1.5rem;
+    position: absolute;
+    left: 50%;
+    bottom: 3%;
+    transform: translate(-50%, -50%);
+}
